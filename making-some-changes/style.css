@@ -7,6 +7,8 @@
     padding-left: 50px !important;
 }
 
+.nav-link:hover { color: #FF8086 !important;  }
+
 .navbar-brand img { 
     height: 60px;
     padding-left: 15px !important;
