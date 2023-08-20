@@ -78,6 +78,7 @@ table {
 	background-color: #BD4150;
 	color: #DDD;
 	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 #banner h1 {
@@ -98,6 +99,10 @@ table {
 	margin-top: 30px;
 	padding: 10px;
 	text-decoration: none;
+}
+
+#banner img {
+	width: 450px;
 }
 
 #banner a:hover {
