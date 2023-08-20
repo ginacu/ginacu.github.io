@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    font-family: arial;
+    font-family: Helvetica, Arial, sans-serif;
 	line-height: 1;
 }
 ol, ul {
@@ -44,7 +44,10 @@ table {
 	border-spacing: 0;
 }
 
-.navbar-expand-lg.bg-body-tertiary { background-color: #DDD !important; }
+.navbar-expand-lg.bg-body-tertiary { 
+	background-color: #DDD !important; 
+	box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+}
 
 .nav-link { 
     color: #BD4150 !important; 
