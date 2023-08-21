@@ -97,23 +97,6 @@ strong {
 	color: #f3f0f0; 
 }
 
-#banner a {
-    background-color: #DDD !important;
-    color: #2E5C9A !important;
-	font-weight: bold;
-    border-radius: 150px;
-	border: 2px solid #8BB3EA;
-	margin-top: 30px;
-	padding: 10px;
-	text-decoration: none;
-}
-
-#banner a:hover {
-    background-color: #3F83E0 !important;
-    color: #DDD !important;
-	border: 2px solid #8BB3EA;
-}
-
 /* ----------- SKILL SECTION ---------- */
 #skill {
 	background-color: #DDD;
@@ -143,7 +126,7 @@ strong {
 
 #skill img { height: 80px;}
 
-#skill a {
+#button {
     background-color: #DDD !important;
     color: #2E5C9A !important;
 	font-weight: bold;
@@ -154,7 +137,7 @@ strong {
 	text-decoration: none;
 }
 
-#skill a:hover {
+#button:hover {
     background-color: #3F83E0 !important;
     color: #DDD !important;
 	border: 2px solid #8BB3EA;
@@ -165,7 +148,6 @@ strong {
 	background-color: #BD4150;
 	color: #DDD;
 	padding: 10% 0 11% 2%;
-	
 }
 
 #contact h2 {
@@ -182,3 +164,16 @@ strong {
 #contact a { color: #5388d1; }
 
 #contact img { width: 450px; }
+
+/* ----------- PROJECTS SECTION ---------- */
+#projects {
+	background-color: #D76B70;
+	color: #DDD;
+	padding: 5% 0 5%;
+}
+
+#projects h2 {
+	margin-bottom: 20px;
+	font-size: 40px;
+	text-align: center;
+}
