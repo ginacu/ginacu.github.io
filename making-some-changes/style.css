@@ -97,6 +97,23 @@ strong {
 	color: #f3f0f0; 
 }
 
+#button {
+    background-color: #DDD !important;
+    color: #2E5C9A !important;
+	font-weight: bold;
+    border-radius: 150px;
+	border: 2px solid #8BB3EA;
+	margin-top: 10%;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#button:hover {
+    background-color: #3F83E0 !important;
+    color: #DDD !important;
+	border: 2px solid #8BB3EA;
+}
+
 /* ----------- SKILL SECTION ---------- */
 #skill {
 	background-color: #DDD;
@@ -125,23 +142,6 @@ strong {
 }
 
 #skill img { height: 80px;}
-
-#button {
-    background-color: #DDD !important;
-    color: #2E5C9A !important;
-	font-weight: bold;
-    border-radius: 150px;
-	border: 2px solid #8BB3EA;
-	margin-top: 10%;
-	padding: 10px;
-	text-decoration: none;
-}
-
-#button:hover {
-    background-color: #3F83E0 !important;
-    color: #DDD !important;
-	border: 2px solid #8BB3EA;
-}
 
 /* ----------- CONTACT SECTION ---------- */
 #contact {
