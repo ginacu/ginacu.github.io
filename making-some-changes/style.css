@@ -123,17 +123,17 @@ strong {
 	padding-bottom: 5%;
 }
 
-#skill h1 {
+#skill h2 {
 	font-size: 40px;
 	text-align: center;
 }
 
-#skill h2 { 
+#skill h3 { 
 	margin-top: 3%;
 	margin-bottom: 8px;
 }
 
-#skill h2 span {
+#skill h3 span {
 	font-size: 18px;
 	background-color: #BD4150;
     color: #DDD !important;
@@ -160,4 +160,27 @@ strong {
     background-color: #3F83E0 !important;
     color: #DDD !important;
 	border: 2px solid #8BB3EA;
+}
+
+/* ----------- CONTACT SECTION ---------- */
+#contact {
+	background-color: #BD4150;
+	color: #DDD;
+	padding-bottom: 5%;
+}
+
+#contact h2 {
+	margin-top: 100px;
+	margin-bottom: 20px;
+	font-size: 40px;
+	text-align: center;
+}
+
+#contact p {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+#contact a {
+	color: #5388d1;
 }
