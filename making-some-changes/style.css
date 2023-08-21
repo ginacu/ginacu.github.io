@@ -80,9 +80,7 @@ table {
 	padding-top: 3%;
 }
 
-#banner img {
-	width: 450px;
-}
+#banner img { width: 450px; }
 
 #banner h1 {
 	font-size: 60px;
@@ -166,11 +164,11 @@ strong {
 #contact {
 	background-color: #BD4150;
 	color: #DDD;
-	padding-bottom: 5%;
+	padding: 10% 0 11% 2%;
+	
 }
 
 #contact h2 {
-	margin-top: 100px;
 	margin-bottom: 20px;
 	font-size: 40px;
 	text-align: center;
@@ -181,6 +179,6 @@ strong {
 	margin-bottom: 10px;
 }
 
-#contact a {
-	color: #5388d1;
-}
+#contact a { color: #5388d1; }
+
+#contact img { width: 450px; }
