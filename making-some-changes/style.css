@@ -21,19 +21,13 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+footer, header, hgroup, menu, nav, section { display: block; }
 body {
     font-family: Helvetica, Arial, sans-serif;
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
+ol, ul { list-style: none; }
+blockquote, q {	quotes: none; }
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -176,4 +170,26 @@ strong {
 	margin-bottom: 20px;
 	font-size: 40px;
 	text-align: center;
+}
+
+#projects img { 
+	border-radius: 10px;
+	border: 2px solid #DDD;
+}
+
+#button2 {
+    background-color: #BD4150 !important;
+	color: #DDD;
+    font-style: bold !important;
+	border: 1px solid #DDD;
+    border-radius: 5px;
+	margin-top: 10%;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#button2:hover {
+    background-color: #DDD !important;
+    color: #BD4150 !important;
+	border: 1px solid #BD4150;
 }
