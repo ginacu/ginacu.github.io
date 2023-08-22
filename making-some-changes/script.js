@@ -11,9 +11,10 @@ const navLinks = document.querySelectorAll('nav ul a').forEach(link => {
 })
 
 // Work with the json for projects data, this is using jquery
+jQuery.fn.reverse = [].reverse;
 $.getJSON('JSON/projects.json', function(data) {
     let projects = data.projects;
-    $.each(projects, function(i, data) {
+    $.each(projects.reverse(), function(i, data) {
         $('#project-list').append('<div class="col-lg-6 mb-3"><a href="img/project/'+ data.img +'"data-lightbox="myproject" data-title="'+ data.caption +'"><img src="img/project/'+ data.img +'" alt="'+ data.caption +'" class="img-fluid"><br><br><a id="button2" href="'+ data.linkProject +'">Open This Project ></a><a id="button2" href="'+ data.linkDocumentation +'">Open Documentation ></a></a></div>')
     });
 });
