@@ -9,3 +9,8 @@ const navLinks = document.querySelectorAll('nav ul a').forEach(link => {
         link.classList.add('active');
     }
 })
+
+// Work with the json for projects data, this is using jquery
+$.getJSON('JSON/projects.json', function(data) {
+    console.log(data);
+})
