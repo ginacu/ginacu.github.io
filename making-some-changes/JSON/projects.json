@@ -3,7 +3,7 @@
         {
             "id":1,
             "category":"design",
-            "img":"../img/project/posterNA1.jpg",
+            "img":"posterNA1.jpg",
             "caption":"This pandemic-themed pamphlet won first place in a pamphlet design competition at a regional organization event in 2020, created using Adobe Illustrator.",
             "linkProject":"-",
             "linkDocumentation":"-"
@@ -11,7 +11,7 @@
         {
             "id":2,
             "category":"design",
-            "img":"../img/project/posterNA2.jpg",
+            "img":"posterNA2.jpg",
             "caption":"This second pamphlet won first place in a pamphlet design competition at a regional organization event in 2020, created using Adobe Illustrator.",
             "linkProject":"-",
             "linkDocumentation":"-"
@@ -19,7 +19,7 @@
         {
             "id":3,
             "category":"website",
-            "img":"../img/project/personalwebv1.jpg",
+            "img":"personalwebv1.jpg",
             "caption":"My first personal website for college assignment created using HTML, CSS, and Bootstrap.",
             "linkProject":"https://ginacu.github.io/gina-s-personal-web-v1/",
             "linkDocumentation":"https://github.com/ginacu/gina-s-personal-web-v1"
@@ -27,7 +27,7 @@
         {
             "id":4,
             "category":"design",
-            "img":"../img/project/halalbihalal.jpg",
+            "img":"halalbihalal.png",
             "caption":"Poster for an event on Eid Al-Fitr in 2023, this poster was made using Adobe Illustrator.",
             "linkProject":"-",
             "linkDocumentation":"-"
@@ -35,7 +35,7 @@
         {
             "id":5,
             "category":"website",
-            "img":"../img/project/suitgames.jpg",
+            "img":"suitgames.jpg",
             "caption":"Suit Games Website (Rock-Paper-Scissor Games in Java's style) created using HTML, CSS, and Javascript",
             "linkProject":"https://ginacu.github.io/website_suit_games/",
             "linkDocumentation":"https://github.com/ginacu/website_suit_games"
@@ -43,7 +43,7 @@
         {
             "id":6,
             "category":"website",
-            "img":"../img/project/bestbuymarket.jpg",
+            "img":"bestbuymarket.jpg",
             "caption":"Best Buy Market Website, created using HTML, CSS, BootStrap, Javascript, and JQuery",
             "linkProject":"https://ginacu.github.io/best-buy-market-website/",
             "linkDocumentation":"https://github.com/ginacu/best-buy-market-website"
