@@ -42,7 +42,7 @@ $('.nav-link').on('click', function() {
         jQuery.fn.reverse = [].reverse;
         $.each(projects.reverse(), function(i, data) {
             if (data.category == category.toLowerCase()) {
-                content += '<div class="col-lg-6 mb-3"><a href="img/project/'+ data.img +'"data-lightbox="myproject" data-title="'+ data.caption +'"><img src="img/project/'+ data.img +'" alt="'+ data.caption +'" class="img-fluid"><br><br><a id="button2" href="'+ data.linkProject +'">Open This Project ></a><a id="button2" href="'+ data.linkDocumentation +'">Open Documentation ></a></a></div>';
+                content += '<div class="col-lg-6 mb-3"><a href="img/project/'+ data.img +'"data-lightbox="myproject" data-title="'+ data.caption +'"><img src="img/project/'+ data.img +'" alt="'+ data.caption +'" class="img-fluid"><br><br><a id="button2" href="'+ data.linkProject +'" target="_blank">Open This Project ></a><a id="button2" href="'+ data.linkDocumentation +'" target="_blank">Open Documentation ></a></a></div>';
             }
         });
 
