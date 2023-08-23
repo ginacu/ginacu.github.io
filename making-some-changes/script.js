@@ -18,3 +18,9 @@ $.getJSON('JSON/projects.json', function(data) {
         $('#project-list').append('<div class="col-lg-6 mb-3"><a href="img/project/'+ data.img +'"data-lightbox="myproject" data-title="'+ data.caption +'"><img src="img/project/'+ data.img +'" alt="'+ data.caption +'" class="img-fluid"><br><br><a id="button2" href="'+ data.linkProject +'">Open This Project ></a><a id="button2" href="'+ data.linkDocumentation +'">Open Documentation ></a></a></div>')
     });
 });
+
+// Create sort of category of the project
+$('.nav-link').on('click', function() {
+    $('.nav-link').removeClass('active-sort');
+    $(this).addClass('active-sort');
+});
