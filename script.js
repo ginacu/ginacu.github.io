@@ -1,6 +1,6 @@
 if(location.href == 'https://ginacu.github.io/'){
     $('#navbar .nav-link').removeClass('active');
-    $(this).addClass('active');
+    $('#about').addClass('active');
 }
 
 // Making active nav link indicator
