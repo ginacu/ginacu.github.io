@@ -1,4 +1,4 @@
-if(location.href == 'https://ginacu.github.io/'){
+if(location.href == 'https://ginacu.github.io'){
     $('#navbar .nav-link').removeClass('active');
     $('#about').addClass('active');
 }
