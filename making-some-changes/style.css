@@ -172,30 +172,6 @@ strong {
 	text-align: center;
 }
 
-#projects img { 
-	border-radius: 10px;
-	border: 2px solid #DDD;
-	margin-top: 2%; 
-}
-
-#button2 {
-    background-color: #BD4150 !important;
-	color: #DDD;
-    font-style: bold !important;
-	border: 1px solid #DDD;
-    border-radius: 5px;
-	margin-right: 5px;
-	margin-bottom: 20px;
-	padding: 10px;
-	text-decoration: none;
-}
-
-#button2:hover {
-    background-color: #DDD !important;
-    color: #BD4150 !important;
-	border: 1px solid #BD4150;
-}
-
 #sort-category {
 	background-color: #D76B70 !important;
 	margin-bottom: 1%; 
@@ -215,4 +191,29 @@ strong {
 #projects .nav-link.active-sort {
     border-bottom: 3px solid #DDD;
     color: #DDD !important;
+}
+
+#projects img { 
+	border-radius: 10px;
+	border: 2px solid #DDD;
+	margin-top: 2%; 
+}
+
+#button2 span {
+    background-color: #BD4150 !important;
+	color: #DDD;
+    font-style: bold !important;
+	border: 1px solid #DDD;
+    border-radius: 5px;
+	margin-right: 5px;
+	margin-bottom: 25px;
+	padding: 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#button2:hover span {
+    background-color: #DDD !important;
+    color: #BD4150 !important;
+	border: 1px solid #BD4150;
 }

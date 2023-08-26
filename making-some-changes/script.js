@@ -17,7 +17,7 @@ function showAllProjects() {
     $.getJSON('JSON/projects.json', function(data) {
         let projects = data.projects;
         $.each(projects.reverse(), function(i, data) {
-            $('#project-list').append('<div class="col-lg-6 mb-3"><a href="img/project/'+ data.img +'"data-lightbox="myproject" data-title="'+ data.caption +'"><img src="img/project/'+ data.img +'" alt="'+ data.caption +'" class="img-fluid"><br><br><a id="button2" href="'+ data.linkProject +'">Open This Project ></a><a id="button2" href="'+ data.linkDocumentation +'">Open Documentation ></a></a></div>')
+            $('#project-list').append('<div class="col-md-6 mb-3" id="project-img"><a href="img/project/'+ data.img +'"data-lightbox="myproject" data-title="'+ data.caption +'"><img src="img/project/'+ data.img +'" alt="'+ data.caption +'" class="img-fluid"><br><br><a id="button2" href="'+ data.linkProject +'"><span>Open This Project ></span></a><a id="button2" href="'+ data.linkDocumentation +'" target="_blank"><span>Open Documentation ></span></a></a></div>')
         });
     });
 }
@@ -42,7 +42,7 @@ $('.nav-link').on('click', function() {
         jQuery.fn.reverse = [].reverse;
         $.each(projects.reverse(), function(i, data) {
             if (data.category == category.toLowerCase()) {
-                content += '<div class="col-lg-6 mb-3"><a href="img/project/'+ data.img +'"data-lightbox="myproject" data-title="'+ data.caption +'"><img src="img/project/'+ data.img +'" alt="'+ data.caption +'" class="img-fluid"><br><br><a id="button2" href="'+ data.linkProject +'" target="_blank">Open This Project ></a><a id="button2" href="'+ data.linkDocumentation +'" target="_blank">Open Documentation ></a></a></div>';
+                content += '<div class="col-md-6 mb-3 d-flex align-items-center" id="project-img"><a href="img/project/'+ data.img +'"data-lightbox="myproject" data-title="'+ data.caption +'"><img src="img/project/'+ data.img +'" alt="'+ data.caption +'" class="img-fluid"></div><div class="text-center"><a id="button2" href="'+ data.linkProject +'" target="_blank"><span>Open This Project ></span></a><a id="button2" href="'+ data.linkDocumentation +'" target="_blank"><span>Open Documentation ></span></a></div>';
             }
         });
 
