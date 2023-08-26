@@ -8,7 +8,7 @@ const navLinks = document.querySelectorAll('nav ul a').forEach(link => {
     if(link.href.includes(`${activePage}`)){
         link.classList.add('active');
     }
-})
+});
 
 // Work with the json for projects data, this is using jquery
 
