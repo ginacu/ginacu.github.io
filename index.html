@@ -1,204 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
-
-    <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
-
-    <title>My Portfolio | Gina Cahya Utami</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal web v2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png">
   </head>
-  <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top" style="background-color: #91ddf2">
-      <div class="container">
-        <a class="navbar-brand" href="#">Gina Cahya Utami</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Akhir Navbar -->
-
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/pp2.jpg" alt="Gina Cahya" width="200" class="rounded-circle" />
-      <h1 class="display-4">Gina Cahya Utami</h1>
-      <p class="lead">Bachelor of Informatics | Front-End Web Dev. and Machine Learning Enthusiast | Bangkit Academy 2022 Graduate</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e2edff"
-          fill-opacity="1"
-          d="M0,32L40,74.7C80,117,160,203,240,202.7C320,203,400,117,480,80C560,43,640,53,720,74.7C800,96,880,128,960,122.7C1040,117,1120,75,1200,53.3C1280,32,1360,32,1400,32L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Akhir Jumbotron -->
-
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About Me</h2>
+  <body>
+    <!-- NAVBAR -->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-2">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>I am a Bachelor of Informatics student, passionate about Front-End Web Development and machine learning. Graduated from Kampus Merdeka - Studi Independen Dicoding 2021 and Bangkit Academy 2022.</p>
+        </nav>
+      </section>
+
+    <!-- BANNER SECTION -->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img src="img/banner.png" alt="banner">
           </div>
-          <div class="col-md-4">
-            <p>I was an Assistant Laboratory and also have some experience in organization, used to work in a team as general treasurer who managed financial management.</p>
+
+          <div class="col-md-6">
+            <h1>Hi, I'm Gina</h1><br>
+            
+            <p>I love working on the <strong>front-end of the web</strong>. This is my site, where I share my projects.</p><br>
+            
+            <p>You can reach out to me if you need any help in making a website for you or your business.</p><br>
+            
+            <a id="button" class="cv" href="https://drive.google.com/file/d/1jN4LC2y6C2ziDjVaoFrVhBJlmnZK1egB/view?usp=sharing" target="_blank">Download CV ></a>
+            <a id="button" class="skill" href="#skill">Let see all my skills ></a>
+            
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#a2d9ff"
-          fill-opacity="1"
-          d="M0,96L26.7,85.3C53.3,75,107,53,160,53.3C213.3,53,267,75,320,112C373.3,149,427,203,480,218.7C533.3,235,587,213,640,181.3C693.3,149,747,107,800,90.7C853.3,75,907,85,960,117.3C1013.3,149,1067,203,1120,218.7C1173.3,235,1227,213,1280,202.7C1333.3,192,1387,192,1413,192L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Akhir About -->
-
-    <!-- Experience -->
-    <section id="experience">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>My Experience</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/bangkit.jpg" class="card-img-top" alt="Experience 1 Bangkit 2022" />
-              <div class="card-body">
-                <h5 class="card-title">Machine Learning Path - Bangkit Academy 2022 Graduate</h5>
-                <p class="card-text">I was focusing on developing my Machine Learning knowledge in the Bangkit Academy 2022 program. In this activity, I was also trusted by the Bangkit team to become the Chief of the Tribe of Bangkit Academy 2022. At the end of the program, I have listed as a Bangkit Distinction Graduate.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/dicoding.jpg" class="card-img-top" alt="Experience 2 Dicoding 2021" />
-              <div class="card-body">
-                <h5 class="card-title">Machine Learning & Front-End Web - SIB Dicoding 2021 Graduate</h5>
-                <p class="card-text">Within five months of participating in this activity, I have completed various modules, both hard skills in Machine Learning & Front-End Web, and soft skills.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/treasurer.JPG" class="card-img-top" alt="Experience 3 as General Treasurer at INTERMEDIA" />
-              <div class="card-body">
-                <h5 class="card-title">General Treasurer at INTERMEDIA</h5>
-                <p class="card-text">Responsible for financial management and organizational budget. This organization has 185 members.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/fa.jpg" class="card-img-top" alt="Experience 4 as Assistant Laboratory" />
-              <div class="card-body">
-                <h5 class="card-title">Assistant Lecturer / Laboratory</h5>
-                <p class="card-text">Assistant Lecturer are students who are specialized in helping lecturers to teach the students in the computer laboratory. I was an assistant for Matrices and Linear Algebra as a Coordinator, Introduction to Computer Science, Database System, and Computer Organization & Architecture.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/swf.jpg" class="card-img-top" alt="Experience 5 as Treasurer at SWF" />
-              <div class="card-body">
-                <h5 class="card-title">Treasurer at Study With Forum Asisten (SWF)</h5>
-                <p class="card-text">SWF is a learning activity for high school/vocational high school (SMA/SMK) students that provides lessons on Python Programming, Networking Support, and Multimedia (Adobe Illustrator) held by Forum Asisten Universitas Amikom Purwokerto. I was a Treasurer in this activity.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/ibm.jpg" class="card-img-top" alt="Experience 6 as Treasurer at IBM" />
-              <div class="card-body">
-                <h5 class="card-title">Treasurer at Intermedia Bakti Masyarakat (IBM)</h5>
-                <p class="card-text">IBM is a learning activity for the people of Purwosari Village, Banyumas regarding the use of Microsoft Office held by UKM INTERMEDIA Universitas Amikom Purwokerto.</p>
-              </div>
-            </div>
-          </div>
-      </div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8cccfa" fill-opacity="1" d="M0,256L48,250.7C96,245,192,235,288,208C384,181,480,139,576,144C672,149,768,203,864,197.3C960,192,1056,128,1152,122.7C1248,117,1344,171,1392,197.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ddd" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,202.7C672,171,768,85,864,69.3C960,53,1056,107,1152,128C1248,149,1344,139,1392,133.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
     
-    <!-- Akhir Experience -->
+    <!-- SKILL SECTION -->
 
-    <!-- Contact -->
-    <section id="contact" >
-      <div class="container mt-3 contactContent">
-          <h1 class="text-center">Contact Me</h1>
-
-          <div class="row mt-4">
-              <div class="col-lg-6">
-                  <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-                  <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;">
-                    <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;">
-                      <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Purwokerto,+Banyumas+Regency,+Central+Java,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-                    </div>
-                    <a class="google-map-code-enabler" href="https://www.bootstrapskins.com/themes" id="get-data-for-map">premium bootstrap themes</a>
-                    <style>#embed-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style>
-                  </div>
-              </div>
-
-              <div class="col-lg-6">
-                  <!-- form fields -->
-                  <form>
-                      <input type="text" class="form-control form-control-lg" placeholder="Name">
-                      <input type="email" class="form-control mt-3" placeholder="Email">
-                      <input type="text" class="form-control mt-3" placeholder="Subject">
-                      <div class="mb-3 mt-3">
-                          <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                      </div>
-                  </form>
-                  <button type="button" class="btn btn-success mt-3">Contact Me</button>
-                  
-              </div>
-
+    <section id="skill">
+      <div class="container">
+        <h2>My Skillsets</h2>
+        <div class="row" id="webdev">
+          <h3><span>Website Development Skills</span></h3>
+          <div class="col">
+            <div class="p-3"><img src="img/html-5.png" alt="html-5"></div>
           </div>
+          <div class="col">
+            <div class="p-3"><img src="img/css-3.png" alt="css-3"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="img/bootstrap.png" alt="bootstrap"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="img/js.png" alt="javascript"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="img/php.png" alt="php"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="img/sql-server.png" alt="sql-server"></div>
+          </div>
+        </div>
+        <div class="row" id="ml">
+          <h3><span>Other Website Development Skills - Machine Learning</span></h3>
+          <div class="col">
+            <div class="p-3"><img src="img/python.png" alt="python"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="img/tensorflow.png" alt="tensorflow"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="img/Numpy.png" alt="numpy"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="img/4l6ts__pandas.png" alt="pandas"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="img/OpenCV-01.png" alt="opencv"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="img/scikit-learn.png" alt="scikit-learn"></div>
+          </div>
+        </div>
+        <div class="row">
+          <h3><span>Other Website Development Skills - Design</span></h3>
+          <div class="d-flex justify-content-center">
+              <div class="p-3"><img src="img/Adobe-Illustrator-CC.png" alt="Adobe-Illustrator-CC"></div>
+              <div class="p-3"><img src="img/figma.png" alt="figma"></div>
+              <div class="p-3"><img src="img/Adobe-Photoshop-CC.png" alt="Adobe-Photoshop-CC"></div>
+          </div>
+        </div>
+        <a id="button" href="projects.html">See my projects ></a>
       </div>
-      
+      </div>
     </section>
-    <!-- Akhir Contact -->
 
-    <!-- Footer -->
-    <footer class="text-white text-center shadow-sm pb-3">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.linkedin.com/in/gina-cahya-utami/" target="_blank" class="text-white fw-bold">Gina</a></p>
-    </footer>
-    <!-- Akhir Footer -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
+
+
+<!-- https://ginacu.github.io/making-some-changes/index.html -->
