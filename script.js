@@ -1,6 +1,6 @@
 $('#navbar .nav-link').on('click', function() {
     $('#navbar .nav-link').removeClass('active');
-    $(this).addClass('active');
+    $('#navbar .nav-link').addClass('active');
 });
 
 
