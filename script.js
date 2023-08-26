@@ -1,3 +1,8 @@
+if(location.href == 'https://ginacu.github.io/'){
+    $('#navbar .nav-link').removeClass('active');
+    $(this).addClass('active');
+}
+
 // Making active nav link indicator
 // give us the current location of the page like index.html etc
 const activePage = window.location.pathname;
