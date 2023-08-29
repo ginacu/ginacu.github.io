@@ -79,6 +79,8 @@ table {
 
 #banner img { width: 450px; }
 
+#second-img img { display: none;}
+
 #banner h1 {
 	font-size: 60px;
 	margin-top: 100px;
@@ -222,6 +224,20 @@ strong {
 
 #contact img { width: 450px; }
 
+
+@media screen and (max-width: 995px) {
+
+	#banner h1 { 
+		margin-top: 50px;
+		font-size: 38px; }
+
+	#banner p { font-size: 16px; }
+
+	#banner #button{ font-size: 13px; }
+
+	#banner img { width: 350px; }
+}
+
 @media screen and (max-width: 945px) {
 
 	#contact h2 { font-size: 34px; }
@@ -243,4 +259,15 @@ strong {
 		width: 360px;
 		margin-top: 35px;
 	}
+}
+
+@media screen and (max-width: 767px) {
+
+	#first-img img { display: none;}
+
+	#second-img img { 
+		display: block;
+		margin: 35px auto 0 auto;
+	}
+	
 }
